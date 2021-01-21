@@ -125,7 +125,7 @@ Server: Apache/2.4.46 (FreeBSD) OpenSSL/1.1.1d-freebsd
 Expires: 0
 Cache-control: no-cache
 Pragma: no-cache
-Content-Length: 2084
+Content-Length: 2080
 Content-Type: text/html
 
 <!DOCTYPE html>
@@ -135,7 +135,7 @@ Content-Type: text/html
 <center><b>This page shows your IPv4 or IPv6 address</b>
 <table width=600 border=0 cellspacing=5 cellpadding=0>
 <tr><td align=center colspan=3>You are connecting with an <font color="#FF0000">IPv4</font> Address of:</td></tr>
-<tr><td align=center colspan=3 bgcolor="D0D0F0"><font face="Arial, Monospace" size=+3>8.8.8.8</font></td></tr>
+<tr><td align=center colspan=3 bgcolor="D0D0F0"><font face="Arial, Monospace" size=+3>1.68.19.123</font></td></tr>
 <tr><td align=left><a href="http://ip4.me/">IPv4 only Test</a></td>
 <td align=center><a href="http://ip6.me/">Normal Test</a></td>
 <td align=right><a href="http://ip6only.me/">IPv6 only Test</a></td></tr>
@@ -157,7 +157,8 @@ Recommended API urls<br>(Don't forget the trailing slash to avoid unnessary 301 
 <font size="-2">&copy;2020 Dulles Internet Exchange, LLC.  All rights reserved.</font>
 </center>
 </body>
-</html>`))
+</html>
+`))
     if err != nil {
 		s.config.Logger.Printf("[ERR] Show HTML5: %v", err)
 		return
